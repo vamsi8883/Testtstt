@@ -9,8 +9,10 @@ namespace WebApiApplication.Data
     {
         public DataContext(DbContextOptions options) :base(options)
         {
-
+            
         }
+
+        public void nthing() { }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
